@@ -1,0 +1,59 @@
+/* Общие стили для всего приложения */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* Заголовок */
+h1 {
+  color: #5c6bc0;
+}
+
+/* Поле ввода и кнопки */
+input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #cfd8dc;
+  border-radius: 5px;
+  margin-right: 5px;
+  width: 150px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Кнопки "Угадать" и "Сброс" */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #5c6bc0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 15px;
+}
+
+button:hover {
+  background-color: #3f51b5;
+}
+
+/* Отображение результата */
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#attempts {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #616161;
+}
